@@ -29,33 +29,33 @@ main{
 }
 .piso{
     width: 100%;
-    height: 410px;
+    height: auto;
     position: absolute;
     bottom: 0;
 }
 .pipe-planta{
     position: absolute;
     width: 70%;
-    bottom: 4.5%;
+    bottom: 1.5%;
     left: 5%;
 }
 .pipe{
     position: absolute;
     width: 20%;
-    bottom: 7.4%;
+    bottom: 4.4%;
     left: 75%;
 }
 .amigo{
     position: absolute;
     width: 40%;
-    bottom: 8%;
+    bottom: 5%;
     right: 58%;
 
 }
 .mario-dino{
     position: absolute;
     width: 50%;
-    bottom: 9%;
+    bottom: 6%;
     left: 30%;
 }
 

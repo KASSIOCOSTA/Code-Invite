@@ -34,34 +34,34 @@ main{
 }
 .piso{
     width: 100%;
-    height: 410px;
+    height: auto;
     position: absolute;
     bottom: 0;
 }
 .pipe-planta{
     position: absolute;
     width: 50%;
-    bottom: 5.5%;
-    left: 1%;
+    bottom: 2.5%;
+    left: 5%;
 }
 .pipe{
     position: absolute;
     width: 18%;
-    bottom: 7.4%;
+    bottom: 4.4%;
     left: 82%;
 }
 .amigo{
     position: absolute;
     width: 30%;
-    bottom: 8%;
+    bottom: 5%;
     right: 65%;
 
 }
 .mario-solo{
     position: absolute;
     width: 25%;
-    bottom: 7%;
-    left: 71%;
+    bottom: 5%;
+    left: 65%;
     z-index: 3;
 }
 
