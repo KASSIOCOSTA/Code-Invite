@@ -1,0 +1,228 @@
+@font-face{
+    font-family: mario;
+    src: url(../fonts/retro_mario/RetroMario-Regular.otf) format(opentype);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(0, 166, 255), white);
+    position: relative;
+    overflow: hidden;
+}
+.apresentacao{
+    position: absolute;
+    width: 100%;
+    bottom: 76%;
+}
+.muro{
+    position: absolute;
+    width: 115%;
+    right: -10%;
+    bottom: 64%;
+    z-index: 2;
+    height: 13%;
+    
+
+}
+.piso{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+.pipe-planta{
+    position: absolute;
+    width: 50%;
+    bottom: 2.5%;
+    left: 5%;
+}
+.pipe{
+    position: absolute;
+    width: 18%;
+    bottom: 4.4%;
+    left: 82%;
+}
+.amigo{
+    position: absolute;
+    width: 30%;
+    bottom: 5%;
+    right: 65%;
+
+}
+.mario-solo{
+    position: absolute;
+    width: 25%;
+    bottom: 5%;
+    left: 65%;
+    z-index: 3;
+}
+
+.envelope{
+    position: absolute;
+ 
+    width: 100%;
+    bottom: 30%;
+     z-index: 10;
+}
+
+
+
+.topo{
+    position: absolute;
+    width: 100%;
+    bottom: 55%;
+     z-index: 10;
+    
+
+}
+.mario-moeda{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+     z-index: 10;
+
+}
+
+.nome-do-aniversariante{
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    transform: translate(-60%);
+    font-size: 1.5em;
+    font-family: mario;
+    display: block;
+    text-align: center;
+     z-index: 10;
+}
+
+.idade-do-aniversariante{
+    position: absolute;
+    bottom: -10%;
+    left:50%;
+    transform: translate(-50%);
+
+    font-size: 1em;
+    font-family: mario;
+    color: red;
+    text-shadow: -2px -2px black, -2px 2px black, 2px -2px black, 2px 2px black;
+     z-index: 10;
+}
+.cor-1{
+    color: blue;
+    text-shadow: -2px -2px 0#000000, 2px -2px  0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}
+
+.cor-2{
+    color: yellow;
+    text-shadow: -2px -2px 0#000000, 2px -2px  0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}
+
+.cor-3{
+    color: red;
+    text-shadow: -2px -2px 0#000000, 2px -2px  0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}
+
+.cor-4{
+    color: rgb(11, 197, 36);
+    text-shadow: -2px -2px 0#000000, 2px -2px  0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}
+
+.nuvens{
+    width: 30%;
+    position: absolute;
+    animation: nuvens1 20s infinite linear ;
+}
+.nuvens-2{
+   animation: nuvens2 25s infinite linear;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+   
+}
+
+@keyframes nuvens1{
+    from{ right: -20%; bottom:17%;
+    }
+    to{
+        right: 100%; bottom: 17%;
+    }
+}
+@keyframes nuvens2{
+    from{ right: -90%; bottom: 25%;
+    }
+    to{
+        right: 100%; bottom: 25%;
+    }
+}
+
+section{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    z-index: 10;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: justify;
+    color: blue;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+section p{
+    font-family: mario;
+    text-align: center;
+}
+section img{
+    width: 10%;
+}
+a {
+  display: inline-block;  /* link só do tamanho da imagem */
+  text-decoration: none;  /* tira sublinhado */
+}
+
+a img {
+  display: block;   /* evita espaços extras */
+  width: 100%;      /* imagem se adapta ao tamanho do container pai */
+  height: auto;
+}
+.links1, .links2, .links3 {
+  position: absolute;
+  text-align: center;
+  width: 10%; /* controla o tamanho da imagem/link */
+}
+
+.links1 { bottom: 13%; left: 18%;
+z-index: 10; } /*whatsapp*/
+.links2 { bottom: 11%; left: 36%; 
+z-index: 10;} /*presente*/
+.links3 { bottom: 13%; left: 53%;
+z-index: 10; } /*localizaçao*/
+
+
+
+.endereco{
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    bottom: 48%;
+    text-align: left;
+    left: 20%;
+}
+
+h1{
+    position: absolute;
+    font-family: mario,cursive;
+    bottom: 35%;
+    left: 21%;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+
+}
