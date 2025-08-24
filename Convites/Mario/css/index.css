@@ -18,6 +18,12 @@ main{
     overflow: hidden;
 }
 
+.audio{
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    left: 15%;
+}
 .muro{
     position: absolute;
     width: 115%;
