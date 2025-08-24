@@ -15,6 +15,7 @@ main{
     height: 100vh;
     background-image: linear-gradient(to bottom, rgb(0, 166, 255), white);
     position: relative;
+    overflow: hidden;
 }
 
 .muro{
