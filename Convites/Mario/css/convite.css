@@ -195,7 +195,7 @@ a img {
 .links1, .links2, .links3 {
   position: absolute;
   text-align: center;
-  width: 80px; /* controla o tamanho da imagem/link */
+  width: 60px; /* controla o tamanho da imagem/link */
 }
 
 .links1 { bottom: 13%; left: 10%;
