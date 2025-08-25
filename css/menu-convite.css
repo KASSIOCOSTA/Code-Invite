@@ -61,7 +61,10 @@ nav a{ text-decoration: none;
 }
 
 main{
-    background-color: rgb(255, 255, 255);
+   background-image: url("../image/fundo-convite.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
     max-width: 300px;
     margin: 0 auto;
     padding: 15px;
@@ -70,30 +73,4 @@ main{
     10px 10px 10px black,
     -10px 0px 10px black;
 }
-main h1{
-    text-align: center;
-    font-family: "Delius", cursive;
-}
-main p{
-    margin: 15px;
-    text-align: justify;
-    font-family: "Nunito", sans-serif;
-}
-main a{
-    
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    display: block;
-    margin:20px auto;
-    background-color: red;
-    border-radius: 5px;
-    width: 60px;
-    padding: 10px;
-    box-shadow: 
-    2px 2px 3px black,
-    -2px -2px 3px black,
-    2px -2px 3px black,
-    -2px 2px 3px black;
 
-}
