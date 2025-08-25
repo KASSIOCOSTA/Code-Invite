@@ -2,25 +2,39 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --cor:#0A3140;
+    --cor1:#025E73;
+    --cor2: #2699A6;
+    --cor3: #79E6F2;
+    --cor4: #D99962;
+}
+
+html,body{
+    background-color: var(--cor);
+}
+
 header{
-    background-color: green;
+    background-image: linear-gradient(to top, var(--cor), var(--cor3) );
     text-align: center;
     padding: 25px;
 }
 
-nav{background-color: rgb(0, 88, 0);
+nav{background-color: #025E73(0, 88, 0);
     padding: 5px;
     border: solid;
 
 }
-nav a{
+nav a{ text-decoration: none;
+    color: white;
     border: solid;
     margin: 5px;
     padding: 5px;
 }
 
 main{
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     max-width: 300px;
     margin: 0 auto;
     padding: 15px;
