@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor:#0A3140;
+    --cor1:#025E73;
+    --cor2: #2699A6;
+    --cor3: #79E6F2;
+    --cor4: #D99962;
+}
+
+html,body{
+    background-color: var(--cor);
+    
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor), var(--cor3) );
+    text-align: center;
+    padding: 25px;
+      font-family: "Orbitron", sans-serif;
+
+
+}
+.titulo{
+    color: white;
+     font-family: "Orbitron", sans-serif;
+     font-weight: bolder;
+}
+header p{
+    text-shadow: 
+    1px 1px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white
+    ;
+}
+
+nav{background-color: #01272f(0, 88, 0);
+    padding: 5px;
+   
+
+}
+nav a{ text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    background-color: #014e60;
+    border-radius: 5px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    height: 80vh;
+    box-shadow: 
+    10px 10px 10px black,
+    -10px 0px 10px black;
+}
+main h1{
+    text-align: center;
+    font-family: "Delius", cursive;
+}
+main p{
+    margin: 15px;
+    text-align: justify;
+    font-family: "Nunito", sans-serif;
+}
+main a{
+    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin:20px auto;
+    background-color: red;
+    border-radius: 5px;
+    width: 60px;
+    padding: 10px;
+    box-shadow: 
+    2px 2px 3px black,
+    -2px -2px 3px black,
+    2px -2px 3px black,
+    -2px 2px 3px black;
+
+}
