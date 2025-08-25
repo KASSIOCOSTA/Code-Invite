@@ -4,11 +4,19 @@
 }
 header{
     background-color: green;
+    text-align: center;
 
 }
 
 nav{background-color: rgb(0, 88, 0);
+    padding: 5px;
+    border: solid;
 
+}
+nav a{
+    border: solid;
+    margin: 5px;
+    padding: 5px;
 }
 
 main{
@@ -16,7 +24,7 @@ main{
     max-width: 300px;
     margin: 0 auto;
     padding: 15px;
-    height: 100vh;
+    height: 80vh;
 }
 main a{
     text-decoration: none;
