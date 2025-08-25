@@ -21,16 +21,17 @@ header{
     padding: 25px;
 }
 
-nav{background-color: #025E73(0, 88, 0);
+nav{background-color: #01272f(0, 88, 0);
     padding: 5px;
-    border: solid;
+   
 
 }
 nav a{ text-decoration: none;
     color: white;
-    border: solid;
     margin: 5px;
     padding: 5px;
+    background-color: #014e60;
+    border-radius: 5px;
 }
 
 main{
@@ -57,7 +58,9 @@ main a{
     color: white;
     display: block;
     margin:20px auto;
-    border: solid black;
+    background-color: red;
+    border-radius: 5px;
     width: 60px;
     padding: 10px;
+
 }
