@@ -82,12 +82,12 @@ main{
 }
 .menu a{
     display: block;
-    width: 150px;
+    width: 200px;
     text-decoration: none;
     text-align: center;
     color: rgb(255, 0, 0);
-    margin: 5px auto;
-    padding: 5px;
+    margin: 10px auto;
+    padding: 10px;
     background-color: #014e60;
     border-radius: 5px;
     font-weight: bold;
