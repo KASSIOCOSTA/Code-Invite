@@ -90,7 +90,8 @@ main{
     padding: 10px;
     background-color: #014e60;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 13px;
 
       text-shadow: 
     1px 1px 0 rgb(0, 0, 0),
@@ -99,12 +100,7 @@ main{
     -1px 1px 0 rgb(0, 0, 0)
     ;
     font-family: Arial, Helvetica, sans-serif;
-
-     box-shadow: 
-    2px 2px 0px black,
-    -2px -2px 0px black,
-    -2px 2px 0px black,
-    2px -2px 0px black;
+    border: 3px solid rgb(255, 0, 0);
 }
 .btn-mario{
       background-image: url("../image/botao-mario.png");
