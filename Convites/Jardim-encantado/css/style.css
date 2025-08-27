@@ -35,6 +35,22 @@ main{
 }
 .dente-de-leao{
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
+    left: 40%;
   
+}
+.canto-superior-direito{
+    position: absolute;
+    bottom: 69%;
+    width: 50%;
+    left: 55%;
+
+}
+.borboleta-principal{
+    position: absolute;
+    width: 60%;
+    left: 52%;
+    bottom: 58%;
+    transform: translate(-50%);
+    z-index: 2;
 }
