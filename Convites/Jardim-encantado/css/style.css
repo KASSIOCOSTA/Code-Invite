@@ -1,0 +1,35 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to top, rgb(251, 169, 183), white, rgb(236, 155, 168));
+    overflow: hidden;
+}
+.video-topo{
+    position: absolute;
+    width: 100%;
+}
+.cerca{
+    position: absolute;
+    width: 60%;
+    bottom: 5%;
+}
+.porta{
+    position: absolute;
+    width: 70%;
+    bottom: 3%;
+    left: 54%;
+}
