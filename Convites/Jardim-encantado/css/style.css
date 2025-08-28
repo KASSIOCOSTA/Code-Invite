@@ -27,6 +27,7 @@ main{
     position: absolute;
     width: 60%;
     bottom: 5%;
+    z-index: 2;
 }
 .porta{
     position: absolute;
@@ -64,6 +65,11 @@ main{
     transform: translate(-50%);
     z-index: 5;
   
+}
+.borboleta-rosa{
+    position: absolute;
+    width: 50%;
+    bottom: 5%;
 }
 
 .confirmar-presenca{
