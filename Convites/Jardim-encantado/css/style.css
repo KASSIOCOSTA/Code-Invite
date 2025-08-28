@@ -45,7 +45,7 @@ main{
     width: 50%;
     left: 55%;
     z-index: 4;
-    border: solid;
+   
 
 }
 .canto-superior-esquedo{
@@ -53,7 +53,7 @@ main{
     width: 200px;
     bottom: 40%;
     z-index: 4;
-    border: solid;
+  
 }
 .borboleta-principal{
     position: absolute;
@@ -62,5 +62,17 @@ main{
     bottom: 49%;
     transform: translate(-50%);
     z-index: 5;
-    border: solid;
+  
+}
+
+.confirmar-presenca{
+    width: 80px;
+    position: absolute;
+     border: solid black;
+     bottom: 20%;
+}
+a{
+    display: inline-block;
+    width: 100%px;
+   
 }
