@@ -124,14 +124,16 @@ a{
 
 }
 .nome{
+    display: inline-block;
     font-size: 3em;
      font-family: "Great Vibes", cursive;
-     color: rgb(243, 182, 192);
+     color: rgb(68, 0, 255);
      text-shadow: 
-     1px 1px 0 black,
-     -1px -1px 0 black,
-     -1px 1px 0 black,
-     1px -1px 0 black;
+     1px 1px 0 rgb(255, 255, 255),
+     -1px -1px 0 rgb(255, 255, 255),
+     -1px 1px 0 rgb(255, 255, 255),
+     1px -1px 0 rgb(255, 255, 255);
+     animation: pular 1.5s infinite;
 }
 .idade{
     font-size: 2em;
@@ -143,4 +145,7 @@ a{
      font-size: 2em;
       color: rgb(243, 182, 192);
        font-family: "Great Vibes", cursive;
+}
+.cor-texto{
+    color: pink;
 }
