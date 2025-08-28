@@ -57,7 +57,7 @@ main{
     position: absolute;
     width: 60%;
     left: 52%;
-    bottom: 58%;
+    bottom: 545px;
     transform: translate(-50%);
     z-index: 5;
 }
