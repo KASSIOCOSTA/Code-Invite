@@ -41,23 +41,26 @@ main{
 }
 .canto-superior-direito{
     position: absolute;
-    bottom: 69%;
+    bottom: 60%;
     width: 50%;
     left: 55%;
     z-index: 4;
+    border: solid;
 
 }
 .canto-superior-esquedo{
     position: absolute;
     width: 200px;
-    bottom: 50%;
+    bottom: 40%;
     z-index: 4;
+    border: solid;
 }
 .borboleta-principal{
     position: absolute;
     width: 60%;
     left: 52%;
-    bottom: 545px;
+    bottom: 49%;
     transform: translate(-50%);
     z-index: 5;
+    border: solid;
 }
