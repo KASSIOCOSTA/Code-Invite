@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
 
@@ -94,11 +95,32 @@ a{
     z-index: 99;
     left: 50%;
     transform: translate(-50%);
+     text-shadow: 
+     1px 1px 0 black,
+     -1px -1px 0 black,
+     -1px 1px 0 black,
+     1px -1px 0 black;
+     color: white;
 
 }
 .nome{
-    font-size: 30px;
+    font-size: 3em;
+     font-family: "Great Vibes", cursive;
+     color: rgb(243, 182, 192);
+     text-shadow: 
+     1px 1px 0 black,
+     -1px -1px 0 black,
+     -1px 1px 0 black,
+     1px -1px 0 black;
 }
 .idade{
-    font-size: 20px;
+    font-size: 2em;
+     color: rgb(243, 182, 192);
+     font-family: "Great Vibes", cursive;
+
+}
+.dia{
+     font-size: 2em;
+      color: rgb(243, 182, 192);
+       font-family: "Great Vibes", cursive;
 }
