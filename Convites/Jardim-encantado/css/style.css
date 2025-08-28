@@ -69,7 +69,15 @@ main{
     width: 80px;
     position: absolute;
      border: solid black;
-     bottom: 20%;
+     bottom: 25%;
+     left: 5%;
+}
+.localizacao{
+     width: 80px;
+     position: absolute;
+     border: solid black;
+     bottom: 25%;
+     left: 30%;
 }
 a{
     display: inline-block;
