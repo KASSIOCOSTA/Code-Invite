@@ -95,5 +95,19 @@ main a{
     -2px -2px 3px black,
     2px -2px 3px black,
     -2px 2px 3px black;
+  animation: pular 2s infinite linear;
+
+}
+
+@keyframes pular {
+    0 {
+        transform: scale(1);
+    }
+    50%{
+         transform: scale(1.1);
+    }
+     100% {
+        transform: scale(1);
+    }
 
 }
