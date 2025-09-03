@@ -100,7 +100,7 @@ main a{
 }
 
 @keyframes pular {
-    0 {
+    0% {
         transform: scale(1);
     }
     50%{
